@@ -1,0 +1,28 @@
+### add chef
+POST http://localhost:3000/chef
+
+{
+    "name":"akbar"
+}
+
+### get chef by id
+GET http://localhost:3000/chef/1
+
+
+### list menu
+GET http://localhost:3000/menus
+
+### add order
+POST http://localhost:3000/orders
+
+{
+    "customer":"arga",
+    "menu_id":[1,2]
+}
+
+### get order by id 
+GET http://localhost:3000/order/1
+
+
+### get all order
+GET http://localhost:3000/all/order
